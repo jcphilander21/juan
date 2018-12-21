@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<head lang="en">
+
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	
+	<title>Invoicer - Documentation</title>
+	
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="assets/prettify/prettify.css" type="text/css" media="screen, projection">
+	
+</head>
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Documentation&rdquo;</h3>
+		
+		<hr>
+		
+		<h1 class="center">INVOICER</br>Invoices Generating Application</h1>
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		
+		<ol class="alpha">
+			<li><a href="#introduction">Introduction</a></li>
+			<li><a href="#installation">Installation</a></li>
+			<li><a href="#using">Using the App</a></li>
+			<li><a href="#fnf">Files & Folders</a></li>
+			<li><a href="#credits">Credits</a></li>
+			<li><a href="#support">Contact & Support</a>
+		</ol>
+		
+		<hr>
+		
+		<h2 id="introduction"><strong>A) Introduction</strong> - <a href="#toc">top</a></h2>
+		
+		<p><strong>Invoicer</strong> is Web Application to generate PDF invoices, Orders, Quotes and Receipts right in your browser within seconds with out writing a single line of code.</p>
+		
+		<p>Just need to put your information, press the button and you will get a beautifully designed PDF invoice downloaded.</p>
+
+		<p>You can also send the invoice directly to your client without downloading it. Simply click on the Send Email button and put your and your clients email address with a custom message.</p>
+		
+		<p>And your client will receive a beautifully designed HTML email with the PDF file attached with it.</p>
+		
+		<p>It's very easy to use and install.</p>
+		
+		<hr>
+		
+		<h2 id="installation"><strong>B) Installation</strong> - <a href="#toc">top</a></h2>
+		
+		<p>Invoicer is a software that runs directly into your web browser and no need of any installation. You just need a web server and you are good to go.</p>
+		
+		<p>The downloaded package has following folders in it:</p>
+		
+		<ul>
+			<li>_Documentation <em>- It has all the documentation and instructions for the usage of the App (You are here)</em></li>
+			<li>WWW <em>- This is the folder which has the App files in it</em></li>
+			<li>Changelog <em>- Detail of updates</em>.</li>
+		</ul>
+		
+		<p>Now head to <strong>WWW</strong> folder and get <strong>invoicer.zip</strong> folder of the application from it.</p>
+		
+		<p>Unzip <strong>invoicer.zip</strong> folder and than upload the <em>invoicer</em> folder (uploading folder must have files like index.php, send.php and generator.php in it) and all content to <strong>www</strong> or <strong>public html</strong> directory of your webserver.</p>
+		
+		<p>After upload the contents on web server. You can Surf to http://[yourwebsite]/invoicer to access the application.</p>
+		
+		<p>That's it! You are done with the installation. Now you can generate and download unlimited PDF invoices right from your web browser.</p>
+		
+		<hr>
+		
+		<h2 id="using"><strong>C) Using the App</strong> - <a href="#toc">top</a></h2>
+		
+		<p>There is nothing much complicated in using this application. Its very simple and self explanatory.</p>
+		
+		<p>See the below screen shot for a detailed view of the application front end.</p>
+		
+		<p><img src="assets/a.png" alt="" width="100%" /></p>
+		
+		<p>View of the email sending screen.</p>
+		
+		<p><img src="assets/b.png" alt="" width="100%" /></p>
+		
+		<hr>
+		
+		<h2 id="fnf"><strong>D) Files & Folders</strong> - <a href="#toc">top</a></h2>
+		
+		<ul>
+			<li>css <em>- This folder has all the stylesheets of the application. This app is built with bootstrap 3 so you can easily change the look of the app.</em></li>
+			<li>fonts <em>- This folder has icon fonts used in the front end forms.</em></li>
+			<li>images <em>- This folder has some images used in the app.</em></li>
+			<li><strong style="color:red;">includes *</strong> <em>- This folder has all the required Php files and libraries of the application.</em> <span style="color:red;">Important: Do not change anything in the files of this folder.</span></li>
+			<li><strong style="color:red;">js *</strong> <em>- This folder has all the javascript files used in the app.</em> <span style="color:red;">Important: Do not change anything in the files of this folder.</span></li>
+			<li>uploads <em>- Users uploaded custom logos will be uploaded in this folder.</em></li>
+		</ul>
+		
+		
+		<ul>
+			<li>index.php <em>- In this file you can found all the code of the form that input the values for PDF details.</em></li>
+			<li>send.php <em>- This file has all the code of the Invoice Sending front end.</em></li>
+			<li>generator.php <em>- This file is responsible for generating PDF file based on all the details added in the form.</em></li>
+		</ul>
+		
+		<hr>
+		
+		<h2 id="credits"><strong>E) Credits</strong> - <a href="#toc">top</a></h2>
+		
+		<p>All credits goes to the developer of the following plugins and libraries:</p>
+		
+		<ul>
+			<li><a href="http://www.fpdf.org/" target="_blank">FPDF</a></li>
+			<li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+			<li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+			<li><a href="http://jqueryui.com/" target="_blank">jQuery UI</a></li>
+			<li><a href="http://www.eyecon.ro/" target="_blank">Color Picker</a> by Stefan Petre</li>
+			<li><a href="http://jqueryvalidation.org/" target="_blank">jQuery Validation Plugin</a> by Jörn Zaefferer</li>
+		</ul>
+		
+		<p>We would like to Thanks to the developers of  &  who created such libraries which makes our work a lot easier.</p>
+		
+		<hr>
+		
+		<h2 id="support"><strong>F) Contact & Support</strong> - <a href="#toc">top</a></h2>
+		
+		<p><strong>Support:</strong></p>
+		
+		<p>We always try our best to make our products errors and bugs free. But if you still found any issue or bug with this application please tell us and we shell fix it ASAP and will update it.</p>
+		
+		<p>If you need any help or assistance in installation or using this application, don't need to worry our dedicated support team is always there to help you. Just goto our support site <strong><a href="http://pixelartsupport.ticksy.com/" target="_blank">http://pixelartsupport.ticksy.com/</a></strong> and submit a ticket and our support team member will reply you within 24Hrs.</p>
+		
+		<p><strong>Check out our portfolio</strong></p>
+		
+		<ul>
+			<li><a href="http://www.themeforest.net/user/pixarwpthemes" target="_blank">@Themeforest/pixarwpthemes</a></li>
+		</ul>
+		
+		<p><strong>We are on social media</strong></p>
+		
+		<ul>
+			<li><a href="https://www.facebook.com/thecreatixx" target="_blank">@Facebook/TheCreatixx</a></li>
+			<li><a href="http://www.twitter.com/thecreatix" target="_blank">@Twitter/TheCreatix</a></li>
+		</ul>
+		
+		<hr>
+		
+		<p>Once again thank you so much for purchasing our product and we hope that you will like this and please don't forget to rate it on Codecanyon after purchasing. Thank You!</p>
+		<a href="http://www.codelist.cc"><img src="http://www.ten28.com/ss.jpg"></a>
+		
+    <hr>
+		
+		<p class="center">Design & Developed by <br><br> <a style="display:inline-block;" href="http://www.thecreatix.com" target="_blank"><img width="120px" src="assets/thecreatix-logo.png" alt="TheCreatix.com Logo"></a> <br><br> Web & Software Solutions</p>
+		
+		<hr>
+        
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+		
+	</div>
+
+	<script type="text/javascript" src="assets/prettify/prettify.js"></script>
+	
+	<script> prettyPrint(); </script>
+	
+</body>
+</html>
